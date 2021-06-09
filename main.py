@@ -64,5 +64,5 @@ while True:
     if cv2.waitKey(1) == 27:
         break
     
-# cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 video_src.release()
