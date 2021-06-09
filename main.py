@@ -57,7 +57,7 @@ while True:
                 detect.remove((x,y))
                 print("car is detected : "+str(cars))        
        
-    cv2.putText(frame1, "VEHICLE COUNT : "+str(cars), (450, 70), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255),5)
+    cv2.putText(frame1, "Vehile counted : "+str(cars), (450, 70), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255),5)
     cv2.imshow("Video Original" , frame1)
     cv2.imshow("dilatation",dilatation)
 
